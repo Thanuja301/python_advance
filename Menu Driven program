@@ -1,0 +1,35 @@
+def sq():
+    s =  int(input("Enter Side: "))
+    print("area: ",s*s)
+def rect(a,b):
+    print("Area: ",a*b)
+def circ():
+    r =  int(input("Enter ur Radius: "))
+    return 3.14*r*r
+def tri(b,h):
+    return 0.5*b*h
+    
+while (True):
+    print("1.SQ")
+    print("2.RECT")
+    print("3.CIR")
+    print("4.TRI")
+    print("5.EXIT")
+    ch = int(input("Enter ur choices: "))
+    if ch == 1 :
+        sq()
+    elif ch == 2:
+        l = int(input("enter length : "))
+        b = int(input("enter length : "))
+        rect(l,b)
+    elif ch == 3:
+        x = cir()
+        print("Area: ", X)
+    elif ch == 4:
+        y = tri()
+        print("Area: ",y)
+    elif ch == 5:
+        print("Exit")
+        break
+    else:
+        print("Invalid Choice")
